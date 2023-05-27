@@ -2,17 +2,26 @@
 
 :root {
     --main-color: #ff6f00;
+    --main-color-dark: #c55600;
+    --main-color-light: #ffa763;
     --secondary-color: #00796b;
+    --secondary-color-dark: #006258;
+    --secondary-color-light: #089888;
     --accent-color: #f9a825;
+    --accent-color-dark: #d18406;
+    --accent-color-light: #f9cc25;
     --white: #fff;
+    --white-accent: #cecece;
     --dark-color: #283593;
+    --dark-color-dark: #0b1459;
+    --dark-color-light: #656eb5;
     font-size: 16px;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    padding: 0 8rem 0 8rem;
+    margin: 0;
 }
 
 ul {
@@ -32,7 +41,7 @@ ul {
 }
 
 /* Fonts */
-
+/* #region */
 .logo {
     font: italic bold 24px Montserrat, sans-serif;
 }
@@ -60,3 +69,39 @@ figcaption {
     font-weight: bolder;
     font-size: larger;
 }
+/* #endregion */
+
+/* Coloring */
+/* #region */
+
+.head-container {
+    padding: 0.5rem 8rem 0.5rem 8rem;
+    background-color: var(--dark-color-dark);
+    color: var(--main-color);
+}
+
+.header {
+    background-color: var(--dark-color-dark);
+    color: var(--main-color);
+}
+
+.header a {
+    color: var(--main-color-light);
+    text-decoration: none;
+}
+
+.headings-info p {
+    color: var(--main-color-dark);
+    font-size: smaller;
+}
+
+button {
+    background-color: var(--main-color-light);
+    color: var(--dark-color-dark);
+    padding: 6px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* #endregion */
