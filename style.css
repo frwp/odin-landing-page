@@ -69,13 +69,26 @@ figcaption {
     font-weight: bolder;
     font-size: larger;
 }
+
+.header a {
+    text-decoration: none;
+}
+
+.headings-info p {
+    font-size: smaller;
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+}
+
 /* #endregion */
 
 /* Coloring */
 /* #region */
-
+/* #region */
 .head-container {
-    padding: 0.5rem 8rem 0.5rem 8rem;
     background-color: var(--dark-color-dark);
     color: var(--main-color);
 }
@@ -87,21 +100,55 @@ figcaption {
 
 .header a {
     color: var(--main-color-light);
-    text-decoration: none;
 }
 
 .headings-info p {
     color: var(--main-color-dark);
-    font-size: smaller;
 }
 
 button {
     background-color: var(--main-color-light);
     color: var(--dark-color-dark);
+}
+
+/* #endregion */
+
+/* #Content */
+/* #region */
+
+/* #endregion */
+
+/* #endregion */
+
+/* Shapes */
+
+/* headings */
+/* #region */
+
+.head-container {
+    padding: 1rem 8rem 1.6rem;
+}
+
+button {
     padding: 6px 18px;
     border-radius: 6px;
-    font-weight: bold;
-    font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.headings {
+    display: flex;
+    margin: 1rem 0 0;
+}
+
+.headings-image {
+    width: 600px;
+    min-height: 200px;
+    border: 1px solid;
+    align-self: center;
+    margin-left: 1rem;
 }
 
 /* #endregion */
