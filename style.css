@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
+/* #region -- vars and base value */
+
 :root {
     --main-color: #ff6f00;
     --main-color-dark: #c55600;
@@ -24,21 +26,7 @@ body {
     margin: 0;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-link ul {
-    display: flex;
-    gap: 16px;
-}
+/* #endregion -- vars and base value */
 
 /* Fonts */
 /* #region */
@@ -86,8 +74,8 @@ button {
 /* #endregion */
 
 /* Coloring */
-/* #region */
-/* #region */
+/* #region -- Coloring */
+/* #region -- headings */
 .head-container {
     background-color: var(--dark-color-dark);
     color: var(--main-color);
@@ -111,19 +99,20 @@ button {
     color: var(--dark-color-dark);
 }
 
-/* #endregion */
+/* #endregion -- headings */
 
-/* #Content */
-/* #region */
+/* Content */
+/* #region -- content */
 
-/* #endregion */
+/* #endregion -- content */
 
-/* #endregion */
+/* #endregion -- Coloring */
 
 /* Shapes */
 
-/* headings */
-/* #region */
+/* #region -- shapes */
+
+/* #region -- headings */
 
 .head-container {
     padding: 1rem 8rem 1.6rem;
@@ -151,4 +140,22 @@ h1 {
     margin-left: 1rem;
 }
 
-/* #endregion */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link ul {
+    display: flex;
+    gap: 16px;
+}
+
+/* #endregion -- headings */
+
+/* #endregion -- shapes */
