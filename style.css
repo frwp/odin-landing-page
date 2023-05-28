@@ -206,4 +206,13 @@ h2 {
 
 /* #endregion -- content */
 
+/* #region -- quotes */
+
+.quote {
+    padding: 1rem 25%;
+    margin: 0;
+}
+
+/* #endregion -- quotes */
+
 /* #endregion -- Shapes */
