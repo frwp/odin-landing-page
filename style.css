@@ -154,6 +154,10 @@ button {
     color: var(--main-color);
 }
 
+.footer a {
+    color: var(--main-color-dark);
+}
+
 /* #endregion -- footer */
 
 /* #endregion -- Coloring */
@@ -300,7 +304,7 @@ figcaption {
 }
 
 .contacts-container button {
-    width: 10rem;
+    width: 12rem;
     height: max-content;
     border-width: 3px;
     margin: 1rem;
