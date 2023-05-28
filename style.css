@@ -116,6 +116,20 @@ button {
 
 /* #endregion -- content */
 
+/* #region -- contacts */
+
+.contacts-container {
+    background-color: var(--main-color-light);
+    color: var(--dark-color-dark);
+}
+
+.contacts-container button {
+    border-color: var(--dark-color-dark);
+    border-style: solid;
+}
+
+/* #endregion -- contacts */
+
 /* #endregion -- Coloring */
 
 /* #region -- Shapes */
@@ -222,9 +236,7 @@ h2 {
 }
 
 .contacts-container {
-    margin: 0 20%;
-    border-width: 1px;
-    border-style: solid;
+    margin: 10rem 20%;
     border-radius: 1rem;
     padding: 3% 8%;
     display: flex;
