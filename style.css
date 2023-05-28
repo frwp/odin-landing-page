@@ -262,4 +262,14 @@ h2 {
 
 /* #endregion -- contact */
 
+/* #region -- footer */
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+/* #endregion -- footer */
+
 /* #endregion -- Shapes */
