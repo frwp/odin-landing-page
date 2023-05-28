@@ -125,6 +125,15 @@ button {
 
 /* #endregion -- content */
 
+/* #region -- quotes */
+
+.quote {
+    background-color: var(--accent-color-light);
+    color: var(--dark-color-dark);
+}
+
+/* #endregion -- quotes */
+
 /* #region -- contacts */
 
 .contacts-container {
@@ -241,8 +250,13 @@ h2 {
 /* #region -- quotes */
 
 .quote {
-    padding: 1rem 25%;
+    padding: 6rem 25%;
     margin: 0;
+}
+
+figcaption {
+    text-align: end;
+    margin: 1rem;
 }
 
 /* #endregion -- quotes */
