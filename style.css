@@ -17,7 +17,7 @@
     --dark-color: #283593;
     --dark-color-dark: #0b1459;
     --dark-color-light: #656eb5;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 body {
@@ -68,6 +68,15 @@ figcaption {
 button {
     font-weight: bold;
     font-size: 16px;
+}
+
+.contacts-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    font-weight: bold;
 }
 
 /* #endregion */
@@ -129,6 +138,15 @@ button {
 }
 
 /* #endregion -- contacts */
+
+/* #region -- footer */
+
+.footer {
+    background-color: var(--dark-color-dark);
+    color: var(--main-color);
+}
+
+/* #endregion -- footer */
 
 /* #endregion -- Coloring */
 
@@ -252,7 +270,6 @@ h2 {
 }
 
 .contacts-title {
-    font-size: 24px;
     margin: 5px;
 }
 
