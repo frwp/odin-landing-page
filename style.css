@@ -182,11 +182,26 @@ h1 {
 }
 
 .headings-image {
-    width: 600px;
-    min-height: 200px;
-    border: 1px solid;
+    flex: 1;
+    min-height: 100px;
+    height: auto;
+    border: 2px solid;
     align-self: center;
     margin-left: 1rem;
+    line-height: 0;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--white-accent);
+}
+
+.headings-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.headings-info {
+    flex: 1;
 }
 
 ul {
