@@ -28,8 +28,7 @@ body {
 
 /* #endregion -- vars and base value */
 
-/* Fonts */
-/* #region */
+/* #region -- Fonts */
 .logo {
     font: italic bold 24px Montserrat, sans-serif;
 }
@@ -73,7 +72,6 @@ button {
 
 /* #endregion */
 
-/* Coloring */
 /* #region -- Coloring */
 /* #region -- headings */
 .head-container {
@@ -108,9 +106,7 @@ button {
 
 /* #endregion -- Coloring */
 
-/* Shapes */
-
-/* #region -- shapes */
+/* #region -- Shapes */
 
 /* #region -- headings */
 
@@ -158,4 +154,43 @@ ul {
 
 /* #endregion -- headings */
 
-/* #endregion -- shapes */
+/* #region -- content */
+
+.content {
+    margin: 0;
+    padding: 1rem 8rem;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.cards-container {
+    margin: 2rem 0;
+}
+
+.cards-container ul {
+    display: flex;
+    max-width: inherit;
+    overflow: scroll hidden;
+    gap: 1.5rem;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    border: 5px solid;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10%;
+}
+
+/* #endregion -- content */
+
+/* #endregion -- Shapes */
